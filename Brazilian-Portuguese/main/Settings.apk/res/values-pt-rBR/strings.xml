@@ -576,6 +576,7 @@ O setup do telefone irá fazer uso de um grande volume de dados."</string>
     <string name="wifi_and_mobile_skipped_message">"ATENÇÃO: O telefone não conseguiu verificar se seu software está atualizado."</string>
     <string name="wifi_connect_failed_message">Houve uma falha ao conectar a rede Wi-Fi do telefone.</string>
     <string name="wifi_advanced_titlebar">Wi-Fi avançado</string>
+	<string name="wifi_setting_connect_type_error">Houve um erro com o tipo de conexão.</string
     <string name="wifi_setting_frequency_band_title">Faixa de frequência Wi-Fi</string>
     <string name="wifi_setting_frequency_band_summary">Especifique a faixa de frequência da operação</string>
     <string name="wifi_setting_frequency_band_error">Houve um erro ao configurar a banda de frequência.</string>
