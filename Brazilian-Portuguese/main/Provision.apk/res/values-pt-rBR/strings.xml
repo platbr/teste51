@@ -32,5 +32,5 @@ Para ajustar esta configuração, vá até Configurações > Serviços de Locali
     <string name="use_data">Utilizar dados 3G</string>
     <string name="input_method_category">Método de Entrada Padrão</string>
     <string name="input_method">Método de Entrada</string>
-    <string name="default_gprs_sim_name">Insira o limite do seu plano de dados \"%s\" em </string>
+    <string name="default_gprs_sim_name">Por favor, insira \"%s\" limites do plano de dados</string>
 </resources>

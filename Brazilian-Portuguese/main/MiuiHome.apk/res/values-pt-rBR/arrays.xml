@@ -46,7 +46,7 @@
         <item>4</item>
     </string-array>
     <string-array name="wallpaper_scroll_entries">
-        <item>Por tema</item>
+        <item>Padrão do tema</item>
         <item>Centralizar</item>
         <item>Esquerda</item>
         <item>Direita</item>

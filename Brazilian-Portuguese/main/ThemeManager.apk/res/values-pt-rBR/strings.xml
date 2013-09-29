@@ -132,6 +132,7 @@
     <string name="restore_default_theme_alert">Você pode ter sido vítima de falsificação de temas. Por favor acesse o Market de Temas e faça o download do seu tema novamente.</string>
     <string name="maml_component_customization_title">Configurações</string>
     <string name="default_name">Padrão</string>
+    <string name="resource_select">Selecionar</string>
     <string name="resource_app_name">Navegador de recursos</string>
     <string name="resource_price_free">Grátis</string>
     <string name="resource_price_unit">MI Credits</string>
@@ -162,7 +163,6 @@ Por favor abra-o novamente para atualizar recursos."</string>
     <string name="resource_delta_update_failed">Falha ao efetuar atualização incremental, transferindo recurso completo</string>
     <string name="resource_apply">Aplicar</string>
     <string name="resource_update">Atualizar</string>
-    <string name="resource_select">Selecionar</string>
     <string name="resource_buy">Comprar</string>
     <string name="resource_importing">Importando</string>
     <string name="online_no_network">Impossível conectar-se à rede</string>

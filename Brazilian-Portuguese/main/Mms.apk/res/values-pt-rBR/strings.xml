@@ -399,6 +399,7 @@ Tentativa: %s."</string>
     <string name="mx_offline">Offline</string>
     <string name="mx_enable_popup_msg">O serviço de mensagens na nuvem permite que você envie mensagens de texto entre usuários MIUI. Para ativar, uma mensagem SMS será enviada. Taxas nesta mensagem podem ser aplicadas por sua operadora celular, deseja ativar agora? Caso não, você poderá ativar o serviço mais tarde nas configurações de mensagens.</string>
     <string name="mx_enable_int_popup_msg">O serviço de mensagens na nuvem permite que você envie mensagens de texto entre usuários MIUI. Para ativar, uma mensagem SMS internacional será enviada. Taxas nesta mensagem podem ser aplicadas por sua operadora celular, deseja ativar agora? Caso não, você poderá ativar o serviço mais tarde nas configurações de mensagens.</string>
+    <string name="mx_activation_done">Serviço de mensagem na nuvem ativado</string>
     <string name="loading_mms">Carregando...</string>
     <string name="add_number_to_sender">Adicionar número para %s</string>
     <string name="unknown_num">Número desconhecido</string>

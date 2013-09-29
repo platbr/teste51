@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Decompiled by BART-R (BurgerZ <az.burgerz@gmail.com)>--><resources>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Você está a %1$d passos de ser um desenvolvedor.</item>
+        <item quantity="one">Você está a %1$d passo de ser um desenvolvedor.</item>
+    </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">A senha deve conter pelo menos %d letras</item>
         <item quantity="one">A senha deve conter pelo menos uma letra</item>
