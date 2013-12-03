@@ -105,20 +105,8 @@
   <string name="bcc">Cco</string>
   <string name="subject_hint">Assunto</string>
   <string name="body_hint">Escrever e-mail</string>
-  <string name="message_compose_fwd_header_fmt">\"
-
--------- Mensagem Original --------
-Assunto: %1$s
-De: %2$s
-Para: %3$s
-CC: %4$s
-
-\"</string>
-  <string name="message_compose_reply_header_fmt">\"
-
-%s escreveu:
-
-\"</string>
+  <string name="message_compose_fwd_header_fmt">\n\n-------- Original Message --------\nSubject: %1$s\nFrom: %2$s\nTo: %3$s\nCC: %4$s\n\n</string>
+  <string name="message_compose_reply_header_fmt">\n\n%s wrote:\n\n</string>
   <string name="message_compose_quoted_text_label">Incluir texto das mensagens anteriores</string>
   <string name="message_compose_include_quoted_text_checkbox_label">Incluir texto</string>
   <string name="message_compose_error_no_recipients">Você deve adicionar pelo menos um destinatário.</string>
@@ -282,17 +270,14 @@ CC: %4$s
   <string name="account_setup_options_mail_window_all">Todos</string>
   <string name="account_setup_options_mail_window_default">"Usar padrão da conta"</string>
   <string name="account_setup_failed_dlg_auth_message">Nome de usuário ou senha incorretos.</string>
-  <string name="account_setup_failed_dlg_auth_message_fmt">\"Nome de usuário ou senha incorretos. 
-(%s)\"</string>
+  <string name="account_setup_failed_dlg_auth_message_fmt">Username or password incorrect.\n(%s)</string>
   <string name="account_setup_failed_dlg_certificate_message">"Não é possível se conectar ao servidor com segurança."</string>
-  <string name="account_setup_failed_dlg_certificate_message_fmt">\"Não é possível se conectar ao servidor com segurança.
-(%s)\"</string>
+  <string name="account_setup_failed_dlg_certificate_message_fmt">"Can't safely connect to server.\n(%s)"</string>
   <string name="account_setup_failed_certificate_required">O certificado do cliente é necessário. Conectar-se ao servidor com o certificado do cliente?</string>
   <string name="account_setup_failed_certificate_inaccessible">O certificado é inválido ou inacessível.</string>
   <string name="account_setup_failed_check_credentials_message">O servidor respondeu com um erro. Verifique seu nome de usuário e senha e tente novamente.</string>
   <string name="account_setup_failed_dlg_server_message">"Não é possível se conectar ao servidor."</string>
-  <string name="account_setup_failed_dlg_server_message_fmt">\"Não é possível se conectar ao servidor.
-(%s)\"</string>
+  <string name="account_setup_failed_dlg_server_message_fmt">"Can't connect to server.\n(%s)"</string>
   <string name="account_setup_failed_tls_required">TLS solicitado, mas não suportado pelo servidor.</string>
   <string name="account_setup_failed_auth_required">"Os métodos de autenticação não são suportados pelo servidor."</string>
   <string name="account_setup_failed_security">"Não foi possível abrir a conexão com o servidor devido a um erro de segurança."</string>
@@ -418,8 +403,7 @@ CC: %4$s
   <string name="default_signature">Enviado de meu MIPhone</string>
   <string name="require_manual_sync_message">A sincronização em segundo plano para essa conta é desativada durante o roaming.</string>
   <string name="multiple_new_message_notification_item">"<b>%1$s</b>\"   %2$s\""</string>
-  <string name="single_new_message_notification_big_text">\"%1$s
-%2$s\"</string>
+  <string name="single_new_message_notification_big_text">%1$s\n%2$s</string>
   <string name="choosertitle_sharevia">Compartilhar via</string>
   <string name="contextmenu_openlink">Abrir no navegador</string>
   <string name="contextmenu_copy">Copiar</string>

@@ -3,14 +3,10 @@
 <resources>
   <string name="backup_confirm_title">Backup completo</string>
   <string name="restore_confirm_title">Restauração completa</string>
-  <string name="backup_confirm_text">\"Foi solicitado um backup completo de todos os dados para um computador conectado. Deseja permitir que isso aconteça?
-
-Caso você não tenha solicitado o backup, não permita que a operação prossiga.\"</string>
+  <string name="backup_confirm_text">A full backup of all data to a connected desktop computer has been requested. Do you want to allow this to happen?\n\nIf you did not request the backup yourself, do not allow the operation to proceed.</string>
   <string name="allow_backup_button_label">Fazer backup dos meus dados</string>
   <string name="deny_backup_button_label">Não fazer backup</string>
-  <string name="restore_confirm_text">\"Foi solicitada uma restauração completa de todos os dados de um computador conectado. Deseja permitir que isso ocorra?
-
-Caso você não tenha solicitado a restauração, não permita que a operação prossiga. Isso substituirá todos os dados existentes no telefone!\"</string>
+  <string name="restore_confirm_text">A full restore of all data from a connected desktop computer has been requested. Do you want to allow this to happen?\n\nIf you did not request the restore yourself, do not allow the operation to proceed. This will replace any data currently on the device!</string>
   <string name="allow_restore_button_label">Restaurar meus dados</string>
   <string name="deny_restore_button_label">Não restaurar</string>
   <string name="current_password_text">Digite sua senha atual de backup abaixo:</string>

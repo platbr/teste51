@@ -47,8 +47,7 @@
   <string name="operation_rename_message">Insira o novo nome</string>
   <string name="operation_create_folder_message">Nome da pasta</string>
   <string name="operation_delete_confirm_message">Excluir</string>
-  <string name="operation_delete_confirm_message_folder">\"Excluindo a pasta você também excluirá todo o seu conteúdo.
-\"</string>
+  <string name="operation_delete_confirm_message_folder">All folder contents will also be deleted.\n</string>
   <string name="delete_folder">Tem certeza que deseja excluir esta pasta?</string>
   <string name="delete_folders">Tem certeza que deseja excluir as %1$d pastas selecionadas?</string>
   <string name="delete_file">Tem certeza que deseja excluir este arquivo?</string>
@@ -170,9 +169,7 @@
   <string name="decompress_confirm">Descompactar</string>
   <string name="decompress_cancel">Cancelar</string>
   <string name="kuaipan_prompt">Atenção</string>
-  <string name="kuaipan_prompt_message">\"
- Servidor em manutenção, por favor, tente novamente mais tarde...
-\"</string>
+  <string name="kuaipan_prompt_message">\n Unfortunately our server is down for maintenance at the moment. Please try again later…\n</string>
   <string name="move_failed">Falha ao recortar</string>
   <string name="copy_failed">Falha ao copiar</string>
   <string name="delete_failed">Falha ao excluir</string>
@@ -180,8 +177,7 @@
   <string name="ui_main_menu_option_sign_in">Conectar</string>
   <string name="sign_description">Conectando...</string>
   <string name="signin_error">Rede indisponível ou instável, tente novamente mais tarde :)</string>
-  <string name="signin_success">\"Conectado com sucesso!
-Armazenamento obtido %1$s\"</string>
+  <string name="signin_success">Welcome!\nFree space added %1$s</string>
   <string name="already_signin_description">"Você já está conectado!"</string>
   <string name="pull_to_signin">Deslize para baixo para conectar-se.</string>
   <string name="release_to_signin">Solte para conectar-se</string>
@@ -286,8 +282,7 @@ Armazenamento obtido %1$s\"</string>
   <string name="cleanup_complete">Concluído</string>
   <string name="count_down_time">Iniciar após %d segundos</string>
   <string name="cancel_with_count_down">Cancelar (%d)</string>
-  <string name="garbage_size_metric">\"Lixo: %s
-\"</string>
+  <string name="garbage_size_metric">Trash %s\n</string>
   <string name="garbage_item_name_format" formatted="false">%s ( %s )</string>
   <string name="garbage_item_path_format" formatted="false">%s %s</string>
   <string name="account_bind_prompt">Migrando dados de usuário, aguarde...</string>
@@ -300,9 +295,7 @@ Armazenamento obtido %1$s\"</string>
   <string name="operation_copying_detail">Copiando arquivos (%1$d/%2$d)</string>
   <string name="name_illegal">O nome do arquivo não pode estar vazio</string>
   <string name="open_changed_file_title">Arquivo alterado</string>
-  <string name="open_changed_file_message">\"O arquivo que você está tentando acessar foi alterado. Você pode fazer o:
-1. Download (atualizar arquivo local)
-2. Upload (atualizar arquivo remoto)\"</string>
+  <string name="open_changed_file_message">The file you are trying to open has been changed. Please:\n1. Download the file again to update it.\n2. Upload it your KuaiPan account.</string>
   <string name="ui_filechange_btn_upload">Enviar arquivo</string>
   <string name="folder_exist">A pasta já existe</string>
   <string name="unmount_inform_text">O armazenamento USB será desmontado.</string>

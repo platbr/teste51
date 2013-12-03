@@ -21,25 +21,16 @@
   <string name="install_failed_msg">Não foi possível instalar o %1$s neste telefone.</string>
   <string name="launch">Abrir</string>
   <string name="unknown_apps_dlg_title">Instalação bloqueada</string>
-  <string name="unknown_apps_dlg_text">\"Por segurança, o seu telefone está configurado para bloquear a instalação de aplicativos que não foram obtidos a partir do Android Market.
-
-Você pode alterar este bloqueio acessando o menu de Configurações-&gt;Segurança-&gt;Fontes desconhecidas.\"</string>
+  <string name="unknown_apps_dlg_text">For security reasons, your phone has been set to forbid installing applications obtained from unofficial channels.To lift the ban you can install applications from any channel,but your phone and personal data may be attacked by applications of unknown sources,and you shall assume full responsibility for the probable consequences.\n\nYou may also modify it via Settings-&gt;Security-&gt;Unknown sources.</string>
   <string name="ok">OK</string>
   <string name="settings">Configurações</string>
   <string name="allow_source_dlg_title">Permitir novas fontes de aplicativos?</string>
-  <string name="allow_source_dlg_text">\"%1$s quer instalar outros aplicativos.
-
-Permitir agora e no futuro?\"</string>
+  <string name="allow_source_dlg_text">%1$s wants to install other apps.\n\nAllow this now and in the future?</string>
   <string name="manage_applications">Gerenciar aplicativos</string>
   <string name="dlg_app_replacement_title">Substituir aplicativo</string>
-  <string name="dlg_app_replacement_statement">\"O aplicativo que você está instalando substituirá outro aplicativo.
-
-Todos os dados de usuário anteriores serão salvos.\"</string>
-  <string name="dlg_app_replacement_statement_with_version">\"%1$s (%2$s) substituirá a versão instalada atualmente (%3$s). Os dados do usuário serão preservados.
-Deseja instalar?\"</string>
-  <string name="dlg_sys_app_replacement_statement">\"Este é um aplicativo do sistema. Ainda deseja substituí-lo?
-
-Todos os dados de usuário anteriores serão salvos.\"</string>
+  <string name="dlg_app_replacement_statement">The application you are installing will replace another application.\n\nAll previous user data will be saved.</string>
+  <string name="dlg_app_replacement_statement_with_version">%1$s (%2$s) will replace the currently installed version (%3$s). User’s contents will be retained.\nSure to install?</string>
+  <string name="dlg_sys_app_replacement_statement">This is a system application. Do you still want to replace it?\n\nAll previous user data will be saved.</string>
   <string name="lift_ban">Permitir</string>
   <string name="out_of_space_dlg_title">Sem espaço</string>
   <string name="out_of_space_dlg_text">Não foi possível instalar %1$s. Libere um pouco de espaço e tente novamente.</string>
@@ -67,10 +58,8 @@ Todos os dados de usuário anteriores serão salvos.\"</string>
   <string name="privacy_relative">Permissões de privacidade</string>
   <string name="other_relative">Outras permissões</string>
   <string name="perm_notice">Alerta de segurança</string>
-  <string name="trust_switch_dialog_msg">\"A MIUI não irá pedir por confirmação de nenhuma operação de segurança ou privacidade relacionados a este App. Por favor tenha certeza de que você entende os riscos.
-Confiar neste App?\"</string>
-  <string name="auto_startup_dialog_msg">\"A MIUI irá permitir que este App inicie automaticamente sem a permissão do usuário. Esta configuração pode resultar em aumento de consumo de dados móveis e bateria.
-Permitir início automático?\"</string>
+  <string name="trust_switch_dialog_msg">Miui will not ask you for confirmation of any security and privacy related operations from this App. Please make sure that you have got it.\nTrust this App？</string>
+  <string name="auto_startup_dialog_msg">Miui will allow the App starting up automatically without asking. Which maybe lead to consumption of power or data traffic.\nAllow Autostart？</string>
   <string name="low_risk_perms">Permissões de baixo risco</string>
   <string name="high_risk_perms">Permissões de alto risco</string>
   <string name="perm_privacy_app_finish">Finalizar</string>
@@ -84,4 +73,9 @@ Permitir início automático?\"</string>
   <string name="perm_action_prompt">Perguntar</string>
   <string name="perm_action_reject">Negar</string>
   <string name="unknown_installer">Instalador desconhecido</string>
+  <string name="install_failed_system_incompatible">This app is not compatible with MIUI system.</string>
+  <string name="virus_scan_install">" \"<u>继续安装</u>\" "</string>
+  <string name="virus_scan_is_virus">这个应用是病毒，建议立即清除！</string>
+  <string name="virus_scan_is_risk">这个应用有风险，是否继续安装！</string>
+  <string name="virus_scan_clear">清除</string>
 </resources>

@@ -93,14 +93,12 @@
   <string name="delete">Excluir</string>
   <string name="confirm_delete">Deseja excluir %s itens?</string>
   <string name="confirm_delete_cloud_all_item_page" formatted="false">Tem certeza que deseja excluir %s imagem(ns) em %s álbum(ns)?</string>
-  <string name="delete_fail_too_many_items">"Falha ao excluir devido ao grande número de arquivos selecionados."</string>
   <string name="action_fail_unknown_error">Falha ao concluir devido a um erro desconhecido.</string>
   <string name="add_to_cloud_fail_too_many_items">Falha ao finalizar operação devido ao grande número de arquivos selecionados.</string>
   <string name="comfirm_delete_current_album">Tem certeza que deseja excluir o álbum atual?</string>
   <string name="confirm_delete_album" formatted="false">Tem certeza que deseja excluir %s álbuns (incluindo %s itens)?</string>
   <string name="confirm_delete_system_album">O álbum %s é um álbum do sistema. Tem certeza que deseja excluí-lo?</string>
-  <string name="operation_delete_confirm_message_folder">\"Pastas e arquivos na seleção serão excluídos simultaneamente.
-\"</string>
+  <string name="operation_delete_confirm_message_folder">All folder contents will be deleted.\n</string>
   <string name="delete_folder">Você tem certeza que deseja excluir %1$d pasta(s) selecionada(s)?</string>
   <string name="delete_file">Você tem certeza que deseja excluir %1$d arquivo(s) selecionado(s)?</string>
   <string name="delete_files_and_folders">Você tem certeza que deseja excluir %1$d arquivo(s) selecionado(s) e %2$d pasta(s) selecionada(s)?</string>
@@ -205,13 +203,12 @@
   <string name="sync_only_in_wifi">Somente Wi-Fi</string>
   <string name="sync_only_in_wifi_summary">É recomendado ativar esta opção para economizar dados móveis.</string>
   <string name="alert">Alerta</string>
-  <string name="gallery_cloud_provider_name">Galeria</string>
+  <string name="gallery_cloud_provider_name">Cloud album</string>
   <string name="sync_album">Sincronizar álbum</string>
   <string name="sync_album_summary">Envia suas fotos e screenshots para os álbuns da nuvem</string>
   <string name="open_sync_title">Abrir sincronização</string>
   <string name="alert_message_open_sync">Você precisa abrir a sincronização primeiro, deseja continuar?</string>
   <string name="open">Abrir</string>
-  <string name="alert_message_initial_cloud">O sistema enviará automaticamente fotos novas e antigas, além de screenshots, somente quando estiver conectado a uma rede Wi-Fi.</string>
   <string name="cloud_gallery_no_pictures">Não há imagens no álbum da nuvem</string>
   <string name="no_network_connected">Nenhuma rede conectada</string>
   <string name="initial_cloud_text">A qualquer hora, em qualquer lugar · Organize e veja suas fotos</string>
@@ -219,7 +216,6 @@
   <string name="storage_no_space">O armazenamento não possui espaço suficiente.</string>
   <string name="add_to_cloud_album">Adic. à nuvem</string>
   <string name="move_to_cloud_album">Mover para</string>
-  <string name="send_to_cloud_failed_message">"Este item não pode ser adicionado nos álbuns na nuvem"</string>
   <string name="add_to_cloud_successfully_message">Adicionado ao álbum na nuvem.</string>
   <string name="add_to_cloud_space_full_message">Álbum na nuvem cheio.</string>
   <string name="add_to_cloud_local_space_full_message">O armazenamento está cheio ou não está pronto.</string>
@@ -227,24 +223,22 @@
   <string name="add_to_cloud_exceeded_the_size_message">A imagem é muito grande.</string>
   <string name="add_to_cloud_type_not_support_message">Tipo de arquivo não suportado.</string>
   <string name="add_to_cloud_file_not_exist_message">O arquivo não existe.</string>
+  <string name="add_to_cloud_image_limit_exceeded_message">Image limit exceeded.</string>
   <string name="add_to_cloud_failed_message_with_count">%2$s item(ns) não adicionado(s) ao álbum na nuvem: %1$s</string>
   <string name="add_to_cloud_reasons"></string>
   <string name="add_to_cloud_unknow_reasons">Erro desconhecido</string>
   <string name="cant_delete_cloud_album">Falha ao excluir: %s é um álbum do sistema ou é compartilhado por outras pessoas.</string>
   <string name="cannot_delete_sharer_photo">Falha ao excluir %s item(ns) enviados por outros.</string>
   <string name="share_album">Compartilhar álbum</string>
-  <string name="share_album_qr_code">Código QR</string>
   <string name="share_album_owner">Dono</string>
   <string name="scan_qr_code_top_text">Membros podem visualizar e adicionar fotos.</string>
   <string name="scan_qr_code_buttom_text">Escaneie o código QR para visualizar este álbum.</string>
-  <string name="request_qr_code">Requisitando código QR, aguarde...</string>
   <string name="request_qr_code_failed">Falha ao requisitar código QR, toque para tentar novamente</string>
   <string name="retry_to_request_qr_code">Reiniciar</string>
   <string name="album_member">Membro do álbum %s</string>
   <string name="add_sharer">Adic. usuário</string>
   <string name="album_name">Nome do álbum</string>
   <string name="already_apply_album">Abrir %1$s?</string>
-  <string name="can_modified">Permitir que usuários adicionem imagens</string>
   <string name="no_picture_or_video">Vazio.</string>
   <string name="camera_view_none_message">Utilize a Câmera para tirar fotos e gravar vídeos.</string>
   <string name="none_picture">Nenhuma imagem.</string>
@@ -255,10 +249,7 @@
   <string name="retry_to_create_album">Reiniciar</string>
   <string name="share_current_album">Compartilhar álbum atual</string>
   <string name="cloud_share_guide_title">Agora você pode compartilhar álbuns!</string>
-  <string name="cloud_share_guide_message">\"Você pode compartilhar seus álbuns na nuvem com
-seus amigos. Você e seus amigos poderão
-visualizar e adicionar fotos no álbum
-juntos. Divirtam-se!\"</string>
+  <string name="cloud_share_guide_message">You can share your cloud album with \nfriends. You and your friends can \nview and add photos to the album \ntogether. Enjoy!</string>
   <string name="cloud_be_shared_guide_title">Este álbum é de um amigo</string>
   <string name="cloud_be_shared_guide_message">"Você pode visualizar as fotos de seus amigos, e adicionar suas próprias fotos aos álbuns compartilhados, para que todos possam vê-las."</string>
   <string name="cloud_owner_album_share_guide">Você pode compartilhar este álbum com seus amigos</string>
@@ -275,11 +266,10 @@ juntos. Divirtam-se!\"</string>
   <string name="contact_photo">Usar como foto de Contato</string>
   <string name="projection">Projeção</string>
   <string name="cut">Cortar</string>
-  <string name="turn_left">Girar p. esquerda</string>
-  <string name="turn_right">Girar p. direita</string>
   <string name="more">Mais</string>
   <string name="deleting_files">Excluindo arquivos...</string>
-  <string name="bigscrren_slide_exit">Sair do slideshow na TV</string>
+  <string name="bigscreen_slide_exit">Exit slideshow</string>
+  <string name="bigscreen_slide_fail_cause_loading">Please retry to start slideshow after loading image.</string>
   <string name="defalt_local_mobile">móvel</string>
   <string name="cloudfolder_name_reserved">Este nome de pasta não pode ser utilizado.</string>
   <string name="cloudfolder_contain_invalidate_char">"O nome de pastas não pode conter '%s'"</string>
@@ -314,7 +304,6 @@ juntos. Divirtam-se!\"</string>
   <string name="set_screensaver_path_title">Slideshow no Screensaver</string>
   <string name="set_screensaver_path_message">As fotos neste álbum serão exibidas 5 segundos após a tela desligar. Esta mensagem não será exibida novamente.</string>
   <string name="set_screensaver_path_message_if_only_charging">Imagens neste álbum só serão exibidas no screensaver quando seu telefone estiver carregando.</string>
-  <string name="screensaver_no_data">Nenhuma foto no álbum.</string>
   <string name="slideshow_time_select_title">Selecionar tempo entre slides</string>
   <string name="slideshow_time_title">Tempo entre Slides</string>
   <string name="rename_failed">Falha ao renomear</string>
@@ -323,10 +312,11 @@ juntos. Divirtam-se!\"</string>
   <string name="send_multiple_files_hint_format">Enviar (%s)</string>
   <string name="send">Enviar</string>
   <string name="select_too_much_to_send_tips">"Muitas fotos selecionadas para envio. O limite máximo de envio é de %d."</string>
+  <string name="pick_too_much_tips">"Can't pick that many items (maximum %d items)."</string>
   <string name="sd_not_available">"Cartão SD desmontado ou indisponível"</string>
-  <string name="internal_sd_card">Cartão SD Interno</string>
+  <string name="internal_sd_card">Phone storage</string>
   <string name="external_sd_card">Cartão SD</string>
-  <string name="external_usb_device">Armazenamento USB</string>
+  <string name="external_usb_device">External USB storage</string>
   <string name="menu_item_sort">Organizar por</string>
   <string name="menu_item_sort_name_asc">Nome (A-Z)</string>
   <string name="menu_item_sort_name_desc">Nome (Z-A)</string>
@@ -341,6 +331,7 @@ juntos. Divirtam-se!\"</string>
   <string name="operation_refresh">Atualizar</string>
   <string name="operation_set_as_screensaver">Definir como Screensaver</string>
   <string name="operation_unset_as_screensaver">Desativar Screensaver</string>
+  <string name="operation_add_picture">Add pictures</string>
   <string name="how_many_videos">%d vídeos</string>
   <string name="how_many_sub_folders">%d pastas</string>
   <string name="directory_info_divider">"  |  "</string>
@@ -372,6 +363,7 @@ juntos. Divirtam-se!\"</string>
   <string name="quotation">\"%s\"</string>
   <string name="by_sms">SMS</string>
   <string name="by_email">E-mail</string>
+  <string name="by_others">Others</string>
   <string name="enter_email_hint">Insira o endereço de Email </string>
   <string name="messagelist_sender_self">Eu</string>
   <string name="adding_recipients">Adicionando destinatários…</string>
@@ -379,10 +371,8 @@ juntos. Divirtam-se!\"</string>
   <string name="cannot_send_message">"Falha ao enviar mensagem"</string>
   <string name="has_invalid_recipient">Destinatário(s) inválido(s): &lt;%1$s&gt;</string>
   <string name="to_count">%d em todos</string>
-  <string name="context_menu_view_contact">Ver contato</string>
   <string name="context_menu_add_contact">Adic. a contatos</string>
   <string name="context_menu_copy_notice">Copiado para a área de transferência</string>
-  <string name="context_menu_new_contact">Novo contato</string>
   <string name="recipient_editor_count_format">%d</string>
   <string name="menu_view_contact">Ver contato</string>
   <string name="invalid_recipient_message">Corrija o destinatário para que a mensagem seja enviada corretamente.</string>
@@ -403,12 +393,9 @@ juntos. Divirtam-se!\"</string>
   <string name="exit_share_failed">A saída do álbum &lt;%1$s&gt; falhou</string>
   <string name="cancel_hint">Operação cancelada</string>
   <string name="fail_hint">Falha na operação.</string>
-  <string name="modify_allow_hint">A inclusão de novas imagens é permitida</string>
-  <string name="modify_disallow_hint">A inclusão de novas imagens não é permitida</string>
   <string name="kick_sharer">Remover usuário</string>
   <string name="kick_sharer_successfully">Usuário removido com sucesso</string>
   <string name="kick_sharer_failed">Falha ao remover usuário</string>
-  <string name="share_user_name">Nome</string>
   <string name="accept_or_deny">%1$s álbuns compartilhados %2$s com você.</string>
   <string name="accept">Aceitar</string>
   <string name="deny">Rejeitar</string>
@@ -416,8 +403,6 @@ juntos. Divirtam-se!\"</string>
   <string name="operation_in_process">Processando...</string>
   <string name="operation_failed">Falha na operação.</string>
   <string name="operation_successful">Concluído.</string>
-  <string name="apply_successfully">Álbum unido.</string>
-  <string name="fail_to_apply">Falha ao unir álbum.</string>
   <string name="invalid_invition_url">URL de convite inválida.</string>
   <string name="user_alias_self">Eu</string>
   <string name="kick_owner_user_title">Remover este membro?</string>
@@ -501,4 +486,14 @@ juntos. Divirtam-se!\"</string>
   <string name="where_is_barcode">Onde encontro o código QR?</string>
   <string name="scan_barcode_guide">Para receber um código QR, toque o botão de Compartilhamento no acnto superior direito.</string>
   <string name="confirm">OK</string>
+  <string name="click_top_right">Tap the icon on the top-right</string>
+  <string name="there_is_no_image">There is no image.</string>
+  <string name="preparing_data_to_delete">Preparing the image data to delete.</string>
+  <string name="picker_tab_camera">Camera</string>
+  <string name="picker_no_items_selected">No items selected</string>
+  <string name="picker_select_album_title_empty">Select an album</string>
+  <string name="picker_no_album_selected">No album selected</string>
+  <string name="video_download_start">Start to download video</string>
+  <string name="video_download_in_process">The video is being downloaded</string>
+  <string name="video_not_exist">The video does not exist</string>
 </resources>

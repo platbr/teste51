@@ -14,11 +14,7 @@
     <item quantity="other">"The selected action isn't available while in the Emergency Callback mode. The phone will be in this mode for %s minute. Do you want to exit now?"</item>
   </plurals>
   <plurals name="numSelectedSimContacts">
-    <item quantity="one">" %1$d items selected"</item>
-    <item quantity="other">"%1$d items selected"</item>
-  </plurals>
-  <plurals name="sim_picker_timer_miui">
-    <item quantity="one">(%1$d seconds)</item>
-    <item quantity="other">(%1$d second)</item>
+    <item quantity="one">" %1$d  selected"</item>
+    <item quantity="other">"%1$d selected"</item>
   </plurals>
 </resources>

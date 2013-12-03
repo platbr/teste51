@@ -156,14 +156,8 @@
   <string name="refresh">Atualizar</string>
   <string name="cloud_item_info_summary">" (Local : %1$s | Online : %2$s)"</string>
   <string name="total_num">%d registro(s) no total</string>
-  <string name="cloud_restore_guide">\"Clique em Restaurar para iniciar a restauração do seu backup
- Você pode também restaurar %s no backup\"</string>
-  <string name="import_from_xiaomi_account_hint1">\"1.\u0009Inicie um telefone com contatos
-
-2.\u0009Instale o MiTalk e conecte-se.
-\u0009http://www.miliao.com
-
-3.\u0009Entre nas configurações do MiTalk e escolha Backup de contatos para a conta Xiaomi\"</string>
+  <string name="cloud_restore_guide">Toque em Restaurar para restaurar dados\n Você também pode restaurar %s em Backups</string>
+  <string name="import_from_xiaomi_account_hint1">1.\u0009Download the MiTalk app and log in.\n\u0009http://www.miliao.com\n\n2.\u0009Go to MiTalk settings and choose ”Back up contacts to Xiaomi account”</string>
   <string name="import_from_xiaomi_account_hint2">Nota: Vá para o próximo passo caso o backup já exista</string>
   <string name="import_from_xiaomi_account_hint_title">Utilize o MiTalk para fazer backup de contatos em outros telefones compatíveis</string>
   <string name="guarded_mode_dialog_title">Modo Protegido</string>
@@ -174,8 +168,7 @@
   <string name="enable_encrypt_indicator">Backup não criptografado, toque para ativar a criptografia.</string>
   <string name="enable_encrypt">Ativar agora</string>
   <string name="already_enable_encrypt">Criptografia ativada</string>
-  <string name="enable_encrypt_summery1">\"O sistema irá criptografar seu backup local baseando-se em sua conta Xiaomi 
- Você precisará conectar-se à sua conta Xiaomi para esvaziar dados do telefone ou para restaurar o backup em outro telefone.\"</string>
+  <string name="enable_encrypt_summery1">Criptografe seus backups.\nVocê precisa logar com sua conta Xiaomi para usar backups criptografados.</string>
   <string name="enable_encrypt_summery2">O novo backup será criptografado automaticamente, e você precisará conectar-se à sua conta Xiaomi para esvaziar dados do telefone ou para restaurar o backup em outro telefone.</string>
   <string name="enable_encrypt_xiaomi_account">Este backup foi criado por %1$s, por favor exclua a conta atual, e conecte-se com a conta %2$s para restaurar os dados.</string>
   <string name="enable_encrypt_ok">OK</string>

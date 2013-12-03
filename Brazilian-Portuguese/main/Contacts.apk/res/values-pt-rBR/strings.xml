@@ -3,66 +3,162 @@
 <resources>
   <string name="resource_app_name">Navegação de Recursos</string>
   <string name="resource_price_free">Grátis</string>
-  <string name="resource_price_unit">Créditos MI</string>
+  <string name="resource_price_unit"> MiCredits</string>
   <string name="resource_price_format">(%1$s)</string>
-  <string name="sdcard_status_changed_dialog_title">Estado do cartão SD alterado</string>
-  <string name="sdcard_status_changed_dialog_message">\"Saindo do aplicativo.
-Por favor abra o app novamente para atualizar os recursos.\"</string>
+  <string name="sdcard_not_mounted_dialog_title">No SD card detected</string>
+  <string name="sdcard_not_mounted_dialog_message">Insert SD card now.\n</string>
   <string name="resource_mute">Nenhum</string>
   <string name="resource_default">Toque padrão</string>
   <string name="resource_ringtone_default">Toques</string>
   <string name="resource_notification_default">Notificações</string>
   <string name="resource_alarm_default">Alarme</string>
-  <string name="description_designer">Designer:</string>
-  <string name="description_author">Autor:</string>
-  <string name="description_size">Tamanho:</string>
-  <string name="description_uploadtime">Atualização:</string>
-  <string name="description_download">Download:</string>
-  <string name="description_version">Versão:</string>
-  <string name="description_summary">Sumário:</string>
+  <string name="description_designer">Designer</string>
+  <string name="description_author">Author</string>
+  <string name="description_size">Size</string>
+  <string name="description_uploadtime">Update</string>
+  <string name="description_download">Downloaded</string>
+  <string name="description_version">Version</string>
+  <string name="description_summary">Summary</string>
+  <string name="description_version_szie">Version: %1$s Size: %2$s</string>
   <string name="resource_local">Local %1$s</string>
   <string name="resource_online">Online %1$s</string>
-  <string name="resource_title">Detalhes do recurso</string>
+  <string name="resource_selected">Featured</string>
+  <string name="resource_ranking">Popular</string>
+  <string name="resource_ranking_free">Free</string>
+  <string name="resource_ranking_purchase">Paid</string>
+  <string name="resource_category">Category</string>
+  <string name="resource_my">Local</string>
+  <string name="resource_pack_price_info">%1$s Original</string>
+  <string name="resource_pack_discount_info">%1$s saved!</string>
+  <string name="resource_pack_confirm">"Even though you've already purchased %1$d components in this theme, it's still cheaper if you buy the full bundle."</string>
+  <string name="resource_pack_warning">"You've already purchased %1$d components in this theme, it's cheaper if you buy the remaining components individually."</string>
+  <string name="resource_title">Resource detail</string>
   <string name="resource_download">Download</string>
   <string name="resource_downloading">Transferindo</string>
   <string name="resource_waiting_download">Aguardando</string>
-  <string name="resource_import_successful">Download concluído.</string>
-  <string name="resource_delta_update_successful">Atualização incremental concluída，Economia de %1$s.</string>
-  <string name="resource_delta_update_failed">Falha na atualização incremental, transferindo pacote completo.</string>
+  <string name="resource_import_successful">Download complete.</string>
+  <string name="resource_delta_update_successful">Update successful</string>
+  <string name="resource_delta_update_failed">Update failed: re-downloading theme…</string>
+  <string name="resource_delta_update_total">%1$d delta updates saved %2$s</string>
   <string name="resource_apply">Aplicar</string>
   <string name="resource_update">Atualizar</string>
   <string name="resource_select">Selecionar</string>
   <string name="resource_buy">Comprar</string>
-  <string name="resource_importing">Importando</string>
-  <string name="online_no_network">Impossível conectar-se à rede</string>
-  <string name="online_search_hint">Pesquisar recursos online</string>
-  <string name="loading">Carregando...</string>
-  <string name="download_failed">Falha ao importar</string>
-  <string name="download_preview_failed">Falha ao carregar visualização</string>
-  <string name="resource_delete_confirm">Você tem certeza que deseja excluir estes recursos?</string>
+  <string name="resource_importing">Importing…</string>
+  <string name="online_no_network">"Couldn't connect to network."</string>
+  <string name="online_search_hint">Search for online resources</string>
+  <string name="loading">Loading…</string>
+  <string name="download_failed">Import failed.</string>
+  <string name="download_preview_failed">Failed to load preview.</string>
+  <string name="resource_delete_confirm">Delete these resources?</string>
   <string name="all_resources">Todos</string>
   <string name="resource_default_name">Recurso</string>
   <string name="resource_detail">Detalhes</string>
-  <string name="resource_delete_all">Você tem certeza que deseja excluir os %1$d recursos selecionados?</string>
-  <string name="resource_can_not_selected">%1$s não pode ser selecionado!</string>
+  <string name="resource_detail_window_title">%1$s details</string>
+  <string name="resource_detail_update_log_title">Updates</string>
+  <string name="resource_detail_comment_title">Comments</string>
+  <string name="resource_detail_recommend_desiner_other_themes">Other themes designed by %1$s</string>
+  <string name="resource_detail_recommend_other_themes">Users also liked</string>
+  <string name="resource_detail_jump_to_online_title">Online</string>
+  <string name="resource_detail_jump_to_same_author_title">Same author</string>
+  <string name="resource_detail_recommend_desiner_themes">%1$s themes</string>
+  <string name="resource_share_title">Share</string>
+  <string name="resource_share_subject">Share theme: %1$s</string>
+  <string name="resource_share_text">"Here's a theme I thought you might like: %1$s! Link: %2$s"</string>
+  <string name="resource_delete_all">Delete %1$d selected resources?</string>
+  <string name="resource_can_not_selected">%1$s can not be selected.</string>
   <string name="resource_system_title">Recursos do sistema</string>
   <string name="resource_downloaded_title">Recursos do usuário</string>
   <string name="resource_see_more">Mais</string>
-  <string name="resource_no_result">Nenhum resultado</string>
+  <string name="resource_no_result">No results.</string>
+  <string name="resource_unable_to_access">"We're sorry\nthe content you're looking for is not currently available in your region."</string>
   <string name="resource_list_title">Último selecionado</string>
-  <string name="resource_get_auth_checking">Checando autorização...</string>
-  <string name="resource_get_auth_retrieving">Recebendo autorização...</string>
-  <string name="resource_get_auth_missing">Este tema não foi transferido através do Market Xiaomi, por favor efetue o download de algum tema semelhante do Market oficial.</string>
-  <string name="resource_get_auth_exceed_max_limit_title">Limite de autorização excedido</string>
-  <string name="resource_get_auth_exceed_max_limit_tips">Este tema não pode ser aplicado atualmente pois o limite de autorização única foi excedido para esta conta Xiaomi. Tente novamente utilizando uma nova conta.</string>
-  <string name="resource_server_out_of_service">Fora de serviço, por favor tente novamente mais tarde.</string>
-  <string name="resource_switch_account">Alternar</string>
-  <string name="deleting">Excluindo...</string>
-  <string name="resource_title_select_ringtone">Selecionar toque</string>
-  <string name="resource_tip_select_ringtone">Nenhum toque selecionado</string>
-  <string name="loading_resource_detail_info">Carregando...</string>
-  <string name="loading_resource_detail_fail">Falha ao carregar recurso!</string>
-  <string name="account_abnormal_state">Informação de conta está incorreta. Tente efetuar o login novamente ou tente mais tarde!</string>
+  <string name="resource_get_auth_checking">Checking authorization…</string>
+  <string name="resource_get_auth_retrieving">Retrieving authorization…</string>
+  <string name="resource_get_auth_missing">Themes from thirdparty sources are not supported.</string>
+  <string name="resource_get_auth_exceed_max_limit_title">Number of authorized devices exceeded</string>
+  <string name="resource_get_auth_exceed_max_limit_tips">Ten devices have already been authorized on this account.</string>
+  <string name="resource_server_out_of_service">Unfortunately, our server is down at the moment. Please try again later.</string>
+  <string name="resource_server_alert_dialog_title">"We'll be right back…"</string>
+  <string name="resource_purchase_getting_order">Retrieving order info…</string>
+  <string name="resource_purchase_waiting_payment">Waiting for payment info…</string>
+  <string name="resource_purchase_verifying_payment">Verifying payment info…</string>
+  <string name="deleting">Deleting…</string>
+  <string name="resource_title_select_ringtone">Select tone</string>
+  <string name="resource_tip_select_ringtone">None selected</string>
+  <string name="loading_resource_detail_info">Loading…</string>
+  <string name="loading_resource_detail_fail">Failed to load resource.</string>
+  <string name="resource_expand_full_text">Expand</string>
+  <string name="resource_account_login">Sign In</string>
+  <string name="resource_account_switch">Switch</string>
+  <string name="resource_account_current">Account: %1$s</string>
+  <string name="resource_account_login_title">Sign In</string>
+  <string name="resource_account_fail_to_add">Failed to add account.</string>
+  <string name="resource_account_abnormal_state">Account error: Try again later.</string>
+  <string name="resource_account_login_before_action">You need to sign in to your Xiaomi Account first.</string>
+  <string name="resource_send">Send</string>
+  <string name="resource_save_to_note">Save to Notes</string>
+  <string name="resource_present">Gift</string>
+  <string name="resource_exchange">Redeem</string>
+  <string name="resource_exchange_confirm">Confirm</string>
+  <string name="resource_exchange_hint">Enter your gift code</string>
+  <string name="resource_exchange_window_title">Redeem</string>
+  <string name="resource_exchange_universal_goon">This code can be used to download any theme in the store.</string>
+  <string name="resource_exchange_universal_finish">Use this code to download a theme from the MIUI Theme Store.</string>
+  <string name="resource_exchange_empty_format">Enter gift code!</string>
+  <string name="resource_exchange_wrong_format_by_local">The format of the code you entered is incorrect.</string>
+  <string name="resource_exchange_wrong_format_by_server">"Code was not verified. Make sure you've entered it correctly."</string>
+  <string name="resource_exchange_has_used">The code you entered has already been used.</string>
+  <string name="resource_exchange_has_expired">The code you entered has expired.</string>
+  <string name="resource_exchange_unavailable">The theme associated with the code you entered is not available.</string>
+  <string name="resource_exchange_has_bought">"You've already purchased this theme."</string>
+  <string name="resource_exchange_success">Enjoy! :)</string>
+  <string name="resource_exchange_share_code_dlg_title">Sending</string>
+  <string name="resource_exchange_share_code_dlg_content">The gift code you purchased for the theme %1$sis: %2$s. When you send it to another MIUI user, he or she can use it to download this theme.</string>
+  <string name="resource_exchange_share_code_content">You received a gift code for the theme %1$s on the MIUI Theme Store. The code number is: %2$s. Touch %3$s to use it now.</string>
+  <string name="resource_exchange_purchase_unkown_error">Yikes! An unknown error occurred. Sign in at http://market.xiaomi.com to view your payment status.</string>
+  <string name="resource_comment_all_comments">All</string>
+  <string name="resource_comment_good_comments">Positive</string>
+  <string name="resource_comment_bad_comments">Negative</string>
+  <string name="resource_comment_average_score">Ratings</string>
+  <string name="resource_comment_score_count">%1$s users</string>
+  <string name="resource_comment_no_average_score">-.-</string>
+  <string name="resource_comment_5_star">5 Stars</string>
+  <string name="resource_comment_4_star">4 Stars</string>
+  <string name="resource_comment_3_star">3 Stars</string>
+  <string name="resource_comment_2_star">2 Stars</string>
+  <string name="resource_comment_1_star">1 Star</string>
+  <string name="resource_comment_footer">Empty comments are not displayed.</string>
+  <string name="resource_comment_no_comment">No comments.</string>
+  <string name="resource_comment_current_version">Current version</string>
+  <string name="resource_comment_date">%1$02d-%2$02d</string>
+  <string name="resource_comment_upload_hint">Your comment will be displayed after a brief review.</string>
+  <string name="resource_comment_sending">Sending comment…</string>
+  <string name="resource_comment_upload_failed">Failed to send comment.</string>
+  <string name="resource_comment_upload_success">Comment sent! Your comment will be displayed after a brief review.</string>
+  <string name="resource_comment_upload_data_invalid">Comment invalid.</string>
+  <string name="resource_comment_upload_not_logined">Please log in first</string>
+  <string name="resource_comment_upload_not_bought">You must use the theme before you can write comments.</string>
+  <string name="resource_comment_invalid">Touch the stars to rate</string>
+  <string name="resource_comment_expand_full_text">Expand all text▼</string>
+  <string name="resource_comment_title">Comments: %1$s</string>
+  <string name="resource_comment_edit_title">Edit comment: %1$s</string>
+  <string name="resource_comment_edit_comment">Add comments</string>
+  <string name="resource_comment_edit_comment_waiting">Checking user history…</string>
+  <string name="resource_comment_edit_text_default">Write a comment</string>
+  <string name="resource_comment_publish">Submit</string>
+  <string name="resource_comment_name_default">User %1$s</string>
+  <string name="resource_comment_loading_list">Loading…</string>
+  <string name="resource_comment_rate">Rating:</string>
+  <string name="resource_comment_entry_tips">View comments</string>
+  <string name="fail_to_add_account">Failed to add account.</string>
+  <string name="account_unactivated">Account not activated.</string>
+  <string name="to_activate_the_account">Activate your Xiaomi account now.</string>
+  <string name="resource_menu_refresh">Refresh</string>
+  <string name="resource_unknow_error">Unkown error.</string>
+  <string name="resource_user_know">OK</string>
+  <string name="resource_hint">Alert</string>
+  <string name="resource_ringtone_volume_mute">Your ringer is currently silenced.</string>
   <string name="config_import_vcard_type">default</string>
   <string name="config_export_vcard_type">v30_generic</string>
   <string name="config_export_dir">/mnt/sdcard</string>
@@ -205,65 +301,11 @@ Por favor abra o app novamente para atualizar os recursos.\"</string>
   <string name="simContacts_title">Contatos do cartão SIM</string>
   <string name="noContactsHelpTextWithSyncForCreateShortcut">"Você não tem contatos para exibir. Se você acabou de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos."</string>
   <string name="noContactsHelpTextForCreateShortcut">"Você não tem contatos para exibir."</string>
-  <string name="noContactsHelpText">\"Você não tem nenhum contato para exibir.
-
-Para adicionar contatos, toque em \"<b><font fgcolor="#ffffffff">Menu</font></b>\" e, a seguir, toque em:
- 
-\"<b><font fgcolor="#ffffffff"><li>\"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o telefone
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Novo contato para criar um novo contato do início
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Importar/Exportar para importar contatos do seu cartão SIM ou SD
-\"</li></font></b>\"
-\"</string>
-  <string name="noContactsHelpTextWithSync">\"Você não tem contatos para exibir. Se acabou de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos.
-
-Para adicionar contatos, toque em \"<b><font fgcolor="#ffffffff">Menu</font></b>\" e toque em:
- 
-\"<b><font fgcolor="#ffffffff"><li>\"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o telefone
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Opções de exibição para alterar quais contatos serão visíveis
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Novo contato para criar um novo contato do início
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Importar/Exportar para importar contatos do cartão SD ou SIM
-\"</li></font></b>\"
-\"</string>
-  <string name="noContactsNoSimHelpText">\"Você não tem nenhum contato para exibir.
-
-Para adicionar contatos, toque em \"<b><font fgcolor="#ffffffff">Menu</font></b>\" e, a seguir, toque em:
- 
-\"<b><font fgcolor="#ffffffff"><li>\"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o telefone
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Novo contato para criar um novo contato do início
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Importar/Exportar para importar contatos do cartão SD
-\"</li></font></b>\"
-\"</string>
-  <string name="noContactsNoSimHelpTextWithSync">\"Você não tem contatos para exibir. Se acabou de adicionar uma conta, pode levar alguns minutos para sincronizar os contatos.
-
-Para adicionar contatos, toque em \"<b><font fgcolor="#ffffffff">Menu</font></b>\" e toque em:
- 
-\"<b><font fgcolor="#ffffffff"><li>\"Contas para adicionar ou configurar uma conta com contatos que possam ser sincronizados com o telefone
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Opções de exibição para alterar quais contatos serão visíveis
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Novo contato para criar um novo contato do início
-\"</li></font></b>\" 
-\"<b><font fgcolor="#ffffffff"><li>\"Importar/Exportar para importar contatos do cartão SD
-\"</li></font></b>\"
-\"</string>
-  <string name="noFavoritesHelpText">\"Você não tem nenhum favorito.
-
-Para adicionar um contato à sua lista de favoritos:
-
-\"<li>Toque na guia <b>Contatos</b>\"
-\"</li>\" 
-\"<li>\"Toque no contato que deseja adicionar aos seus favoritos
-\"</li>\" 
-\"<li>\"Toque na estrela ao lado do nome do contato
-\"</li>\"
-\"</string>
+  <string name="noContactsHelpText">\"You don\'t have any contacts to display.\n\nTo add contacts, touch \"<b><font fgcolor="#ffffffff">Menu</font></b>, then touch:\n \n<b><font fgcolor="#ffffffff"><li>Accounts to add or set up an account with contacts you can sync to the phone\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>New contact to create a new contact from scratch\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>Import/Export to import contacts from your SIM or SD card\n</li></font></b>\n</string>
+  <string name="noContactsHelpTextWithSync">\"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch \"<b><font fgcolor="#ffffffff">Menu</font></b>, then touch:\n \n<b><font fgcolor="#ffffffff"><li>Accounts to add or set up an account with contacts you can sync to the phone\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>Display options to change which contacts are visible\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>New contact to create a new contact from scratch\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>Import/Export to import contacts from your SIM or SD card\n</li></font></b>\n</string>
+  <string name="noContactsNoSimHelpText">\"You don\'t have any contacts to display.\n\nTo add contacts, touch \"<b><font fgcolor="#ffffffff">Menu</font></b>, then touch:\n \n<b><font fgcolor="#ffffffff"><li>Accounts to add or set up an account with contacts you can sync to the phone\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>New contact to create a new contact from scratch\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>Import/Export to import contacts from your SD card\n</li></font></b>\n</string>
+  <string name="noContactsNoSimHelpTextWithSync">\"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch \"<b><font fgcolor="#ffffffff">Menu</font></b>, then touch:\n \n<b><font fgcolor="#ffffffff"><li>Accounts to add or set up an account with contacts you can sync to the phone\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>Display options to change which contacts are visible\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>New contact to create a new contact from scratch\n</li></font></b> \n<b><font fgcolor="#ffffffff"><li>Import/Export to import contacts from your SD card\n</li></font></b>\n</string>
+  <string name="noFavoritesHelpText">\"You don\'t have any favorites.\n\nTo add a contact to your list of favorites:\n\n\"<li>Touch the <b>Contacts</b> tab\n</li> \n<li>Touch the contact you want to add to your favorites\n</li> \n<li>"Touch the star next to the contact\'s name\n"</li>\n</string>
   <string name="dialer_useDtmfDialpad">Usar teclado numérico</string>
   <string name="dialer_returnToInCallScreen">Retornar para chamada em curso</string>
   <string name="dialer_addAnotherCall">Adic. chamada</string>
@@ -341,8 +383,7 @@ Para adicionar um contato à sua lista de favoritos:
   <string name="confirm_export_title">Exportar contatos?</string>
   <string name="confirm_export_message">Sua lista de contatos será exportada para o arquivo: %s.</string>
   <string name="exporting_contact_failed_title">"Não foi possível exportar"</string>
-  <string name="exporting_contact_failed_message">\"Os dados de contato não foram exportados.
-Motivo: \"%s\"\"</string>
+  <string name="exporting_contact_failed_message">"The contact data wasn't exported.\nReason: \"%s\""</string>
   <string name="fail_reason_no_exportable_contact">Não há contato exportáveis.</string>
   <string name="fail_reason_too_many_vcard">Excesso de arquivos vCard no cartão SD.</string>
   <string name="fail_reason_too_long_filename">O nome de arquivo exigido é muito longo (\"%s\").</string>
@@ -498,11 +539,7 @@ Motivo: \"%s\"\"</string>
   <string name="pick_new_photo">Selecionar nova foto da Galeria</string>
   <string name="locale_change_in_progress">A lista de contatos está sendo atualizada para incorporar a alteração do idioma.</string>
   <string name="upgrade_in_progress">A lista de contatos está sendo atualizada.</string>
-  <string name="upgrade_out_of_memory">\"Os contatos estão sendo atualizados no momento. 
-
-O processo de atualização requer aproximadamente %s MB de armazenamento interno.
-
-Escolha uma das seguintes opções:\"</string>
+  <string name="upgrade_out_of_memory">Contacts are in the process of being upgraded. \n\nThe upgrade process requires approximately %s MB of internal storage.\n\nChoose one of the following options:</string>
   <string name="upgrade_out_of_memory_uninstall">Desinstalar alguns aplicativos</string>
   <string name="upgrade_out_of_memory_retry">Tentar atualizar novamente</string>
   <string name="search_results_searching">Pesquisando...</string>
@@ -616,10 +653,7 @@ Escolha uma das seguintes opções:\"</string>
   <string name="local_profile_title">Meu perfil local</string>
   <string name="external_profile_title">Meu perfil %1$s</string>
   <string name="toast_displaying_all_contacts">Mostrando todos os contatos</string>
-  <string name="no_account_prompt">\"O aplicativo Contatos funciona melhor com uma Conta do Google.
-
-• Acesse-o a partir de qualquer navegador da web.
-• Faça backup de seus contatos com segurança.\"</string>
+  <string name="no_account_prompt">People works better with a Google Account.\n\n• Access from any web browser.\n• Back up your contacts securely.</string>
   <string name="generic_no_account_prompt">Mantenha seus contatos seguros mesmo que você perca seu telefone: sincronize-os com um serviço online.</string>
   <string name="generic_no_account_prompt_title">Adicionar conta</string>
   <string name="contact_editor_prompt_zero_accounts">Não será possível fazer backup de seu novo contato. Deseja adicionar uma conta que faça backup de contatos on-line?</string>
@@ -668,7 +702,8 @@ Escolha uma das seguintes opções:\"</string>
   <string name="callrecordview_menu_show">Filtro de chamadas</string>
   <string name="callrecordview_menu_paste">Colar</string>
   <string name="openDialKeyboard">Teclado</string>
-  <string name="t9_search_guide">Digite o número que deseja, ou pesquise conteúdo pelo índice T9.</string>
+  <string name="t9_search_guide_pinyin">You may type 7 and 5 to search Steve Jobs</string>
+  <string name="t9_search_guide_zhuyin">You may type 7 and 5 to search Steve Jobs</string>
   <string name="date_time_set">Definir</string>
   <string name="sim_no_contact">Nenhum contato no SIM</string>
   <string name="sim_indexed_contact_not_exist">Posição %1$d inválida, a posição deve ser entre %2$d e %3$d</string>
@@ -771,9 +806,7 @@ Escolha uma das seguintes opções:\"</string>
   <string name="pref_key_photo">Foto</string>
   <string name="pref_key_photo_word_title">Foto automática</string>
   <string name="pref_key_photo_word_summary">Seleciona uma foto automaticamente para contatos que não possuam.</string>
-  <string name="remove_duplicate">\"A MIUI irá ajuda-lo a encontrar e unir contatos duplicados. Estes contatos não serão unidos automaticamente, você precisará uni-los manualmente
-
-Clique em Unir e aguarde os resultados, seguindo as instruções do aplicativo.\"</string>
+  <string name="remove_duplicate">MIUI will help you find and merge duplicate contacts, contacts will not be merged automatically, please help manually merge\n\nClick the merge, you may need to spend a little time to wait for the automatic completion.</string>
   <string name="ic_menu_back">Voltar</string>
   <string name="preference_display">Exibir</string>
   <string name="preference_simple_mode_title">Modo simples</string>
@@ -944,14 +977,12 @@ Clique em Unir e aguarde os resultados, seguindo as instruções do aplicativo.\
   <string name="hint_distance">mantenha distância</string>
   <string name="hint_more_contact">una contatos que estejam duplicados</string>
   <string name="device_import_account_dialog_title">Selecionar conta a importar</string>
-  <string name="device_import_account_dialog_title_suffix">\"
-(%1$s encontrados)\"</string>
+  <string name="device_import_account_dialog_title_suffix">\n(found %1$s contacts)</string>
   <string name="device_import_local_account">Conta local</string>
   <string name="import_name">nome</string>
   <string name="import_percent">0%</string>
   <string name="percent_sign">%</string>
-  <string name="ret_sign">\"
-\"</string>
+  <string name="ret_sign">\n</string>
   <string name="checkhint">verifique o outro telefone</string>
   <string name="prepare_import">preparando importação</string>
   <string name="device_import_message">Importando</string>
@@ -976,9 +1007,7 @@ Clique em Unir e aguarde os resultados, seguindo as instruções do aplicativo.\
   <string name="add_xiaomi_account_dialog_btn">Utilizar conta Xiaomi</string>
   <string name="keep_local_btn">Salvar somente no telefone</string>
   <string name="batch_delete">Exclusão múltipla de contatos</string>
-  <string name="batch_delete_msg">\"Você tem certeza que deseja excluir os %d contatos? 
-
-Caso você utilize a sincronização de contatos, os dados presentes na nuvem também serão excluídos.\"</string>
+  <string name="batch_delete_msg">Are you sure you want to delete the selected %d contacts? \n\nIf you are using the contact sync service, the contact info in the cloud will also be deleted.</string>
   <string name="starred_contacts">Favoritos</string>
   <string name="other_contacts">Outros</string>
   <string name="importing_sim_contacts_miui">Importando contatos do SIM...</string>
@@ -1028,4 +1057,6 @@ Caso você utilize a sincronização de contatos, os dados presentes na nuvem ta
   <string name="toast_copy_done">Cópia concluída</string>
   <string name="call_record_setting_miui">Gravação de chamadas</string>
   <string name="activity_not_found_uri">Não foi possível encontrar aplicativo correspondente</string>
+  <string name="accessibility_calllog_detail">calllog details</string>
+  <string name="select_groups">Select groups</string>
 </resources>

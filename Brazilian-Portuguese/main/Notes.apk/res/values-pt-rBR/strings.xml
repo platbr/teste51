@@ -27,7 +27,6 @@
   <string name="menu_move">Mover para pasta</string>
   <string name="menu_stick">Fixar</string>
   <string name="menu_unstick">Desafixar</string>
-  <string name="menu_font_size">Fonte</string>
   <string name="menu_folder_change_name">Mudar nome da pasta</string>
   <string name="folder_exist">A pasta %1$s já existe, entre com outro nome</string>
   <string name="menu_send_to_desktop">Enviar para a tela inicial</string>
@@ -40,7 +39,7 @@
   <string name="alert_message_delete_folders_notes">Excluir as %1$s pastas e %2$s anotações selecionadas?</string>
   <string name="alert_message_delete_note">Excluir esta anotação?</string>
   <string name="alert_message_discard_changes">Deseja descartar todas as alterações efetuadas?</string>
-  <string name="format_move_notes_to_folder">%1$d anotações movidas para a pasta %2$s</string>
+  <string name="format_move_notes_to_folder">Successfully moved selected %1$d notes to %2$s</string>
   <string name="alert_title_edit_anyway">Confirme para editar a anotação mesmo sob risco de perder dados.</string>
   <string name="alert_message_edit_anyway">A anotação contém dados não suportados. Editá-la poderá resultar em perda de dados.</string>
   <string name="alert_action_edit_anyway">Continuar editando</string>
@@ -57,6 +56,7 @@
   <string name="error_contact_not_exist">O contato não existe</string>
   <string name="preferences_title">Configurações</string>
   <string name="preferences_bg_random_appear_title">Fundo aleatório</string>
+  <string name="pref_title_font_size">Font size</string>
   <string name="call_record_folder_name">Registro da chamada</string>
   <string name="hint_foler_name">Digite o nome</string>
   <string name="search_label">Buscando Anotações</string>
